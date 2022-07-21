@@ -3,6 +3,7 @@ import { configureStore } from "@reduxjs/toolkit/";
 import { countReducer } from "../features/count/countSlice";
 import { textReducer } from "../features/text/textSlice";
 import { globalReducer } from "../features/global/global";
+import { userReducer } from "../features/user/userSlice";
 
 // Middleware:
 import logger from "redux-logger"; // No longer needs to be initialized
@@ -15,9 +16,9 @@ const store = configureStore({
     count  : countReducer  ,
     text   : textReducer   ,
     global : globalReducer ,
+    user   : userReducer   ,
   },
   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
-
 
 export default store;

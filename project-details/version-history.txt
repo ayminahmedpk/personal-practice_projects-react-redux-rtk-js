@@ -1,5 +1,9 @@
 
 
+0.1.4:
+  - async thunk fetch
+
+
 0.1.3:
   - middleware (added Logger; RTK already has Devtools & Thunk in it)
 
