@@ -1,8 +1,15 @@
 
 
+0.1.2:
+  - wide actions (our pattern: global reducer)
+  - multiple reducers
+  - action payload (it warns if you send an event, so send event.target.value)
+
+
 0.1.1:
   - basic component working (single reducer, selector, dispatch)
   - re-init (unnecessary but needed for troubleshooting)
+
 
 0.1.0:
   - init

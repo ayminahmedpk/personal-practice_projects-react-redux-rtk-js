@@ -1,5 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+// To support wide actions
+import { globalActions } from "../global/global";
+
 
 const initialState = { count: 0 };
 
@@ -12,8 +15,11 @@ const countSlice = createSlice({
   reducers     : {
     incrementCount : (state) => {state.count++ ;  } ,
     decrementCount : (state) => {state.count-- ;  } ,
-    reset          : (state) => {state.count = 0 ;} ,
+    resetCount     : (state) => {state.count = 0 ;} ,
   },
+  extraReducers: (builder) => {
+    builder.addCase(globalActions.reset, (state) => {state.count = 0})
+  }
 });
 
 

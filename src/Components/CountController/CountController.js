@@ -8,12 +8,15 @@ const CountController = () => {
 
   const decrement = countActions.decrementCount;
   const increment = countActions.incrementCount;
+  const reset = countActions.resetCount;
 
   return (
-    <>
+    <div className="component">
+      <p>Count controller</p>
       <button onClick={() => {dispatch(decrement())}} >{'<'}</button>
       <button onClick={() => {dispatch(increment())}} >{'>'}</button>
-    </>
+      <button onClick={() => {dispatch(reset())}} >Reset count</button>
+    </div>
   )
 }
 

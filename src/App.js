@@ -2,14 +2,18 @@ import React from 'react';
 
 import Display from './Components/Display/Display';
 import CountController from './Components/CountController/CountController';
+import TextController from './Components/TextController/TextController';
+import GlobalController from './Components/GlobalController/GlobalController';
 
 
 function App() {
   return (
-    <div>
+    <>
       <Display/>
       <CountController/>
-    </div>
+      <TextController/>
+      <GlobalController/>
+    </>
   );
 }
 

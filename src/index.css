@@ -18,6 +18,8 @@ button {
   cursor: pointer;
 }
 
+input { padding: 3px 0; }
+
 .branches { display: flex; }
 
 .branch {
