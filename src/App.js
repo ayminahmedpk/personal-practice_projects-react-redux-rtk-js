@@ -1,10 +1,14 @@
 import React from 'react';
 
+import Display from './Components/Display/Display';
+import CountController from './Components/CountController/CountController';
+
 
 function App() {
   return (
     <div>
-      Hi from RTK app
+      <Display/>
+      <CountController/>
     </div>
   );
 }

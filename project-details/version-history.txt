@@ -1,4 +1,8 @@
 
 
+0.1.1:
+  - basic component working (single reducer, selector, dispatch)
+  - re-init (unnecessary but needed for troubleshooting)
+
 0.1.0:
   - init
