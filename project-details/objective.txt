@@ -1,0 +1,8 @@
+
+
+Practicing react and redux with the latest syntax (hooks + rtk)
+
+
+RTK file structure and other conventions
+Multiple reducers
+Thunk and other debugging middleware
