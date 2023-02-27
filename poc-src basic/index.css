@@ -1,0 +1,36 @@
+
+
+* {
+  margin     : 0;
+  padding    : 0;
+  box-sizing : border-box;
+}
+
+
+html {
+  background-color : #272727;
+  color            : whitesmoke;
+}
+
+
+button {
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+input { padding: 3px 0; }
+
+.branches { display: flex; }
+
+.branch {
+  margin-top: 1rem;
+  width: 100%;
+  border: 1px solid white;
+}
+
+
+.lesson-root { text-align: center; }
+
+.component            { margin-top  : 4rem   ; }
+.component .component { margin-left : 4rem   ; }
+.component__name      { text-align  : center ; }

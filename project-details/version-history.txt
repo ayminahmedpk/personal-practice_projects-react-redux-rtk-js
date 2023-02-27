@@ -1,5 +1,10 @@
 
 
+0.1.5:
+  - sharing data between reducers through component (selector, loaded dispatch)
+  - new poc / lesson structure init
+
+
 0.1.4:
   - async thunk fetch
 

@@ -1,5 +1,24 @@
 
 
+---- New POC lesson structure -----
+
+
+> Sharing data across slices through components
+
+- Modifying multiple slices from a component by multiple dispatch calls
+
+- Async thunk fetch with axios (separate api, thunk and slice files)
+
+- Async thunk that works with data from multiple slices
+
+
+
+
+
+
+
+---- old -----
+
 Practicing react and redux with the latest syntax (hooks + rtk)
 
 
