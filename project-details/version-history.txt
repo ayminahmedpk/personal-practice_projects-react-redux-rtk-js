@@ -1,5 +1,12 @@
 
 
+0.1.6:
+  - multiple dispatch with changing slice data attempted - results, issues and
+    limitations explained in component
+  - structure improved
+
+
+
 0.1.5:
   - sharing data between reducers through component (selector, loaded dispatch)
   - new poc / lesson structure init

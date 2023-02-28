@@ -5,7 +5,7 @@ import React from 'react'
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 
-import { narrowActions } from '../../../Redux/features/narrow/narrowSlice';
+import { narrowActions } from '../../../Redux/1-sliceShare/1-wideComponent/features/narrow/narrowSlice';
 
 const Narrow = () => {
 

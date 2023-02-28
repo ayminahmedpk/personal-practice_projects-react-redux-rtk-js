@@ -5,14 +5,14 @@ import React from 'react'
 import { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'
 
-import { wideActions } from '../../../Redux/features/wide/wideSlice';
+import { wideActions } from '../../../Redux/1-sliceShare/1-wideComponent/features/wide/wideSlice';
 
 const Wide = () => {
 
   const data = useSelector(store => store.wide.data);
   const narrowData = useSelector(store => store.narrow.data);
 
-  const [localData, setLocalData] = useState('')
+  const [localData, setLocalData] = useState('');
 
   const dispatch = useDispatch();
 
@@ -34,4 +34,4 @@ const Wide = () => {
   )
 }
 
-export default Wide
+export default Wide;

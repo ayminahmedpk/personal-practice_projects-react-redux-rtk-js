@@ -1,7 +1,7 @@
 
 
 import { Provider } from "react-redux";
-import store from "../../../Redux/store/store";
+import store from "../../../Redux/1-sliceShare/1-wideComponent/store/store";
 
 import Narrow from "./Narrow";
 import Wide from "./Wide";
